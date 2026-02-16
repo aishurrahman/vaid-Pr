@@ -1,0 +1,10 @@
+{
+  "name": "vaid-pr-blogs-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animated frontend-only website",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "start": "python3 -m http.server 5173"
+  }
+}
