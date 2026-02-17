@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaid PR Blogs</title>
+    <meta
+      name="description"
+      content="Professional insights, industry trends, and expert content from Vaid PR Blogs."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brandBg: "#f2f5f9",
+              brandInk: "#131d33",
+              brandMuted: "#59677f",
+              brandLine: "#d9e0ec",
+              heroFrom: "#02091f",
+              heroTo: "#040d29",
+              brandBlue: "#2d67f5",
+              brandBlueSoft: "#8fa7ff"
+            },
+            fontFamily: {
+              heading: ["Space Grotesk", "sans-serif"],
+              body: ["Manrope", "sans-serif"]
+            },
+            boxShadow: {
+              card: "0 18px 45px rgba(8, 20, 56, 0.08)",
+              cta: "0 12px 24px rgba(45, 103, 245, 0.32)"
+            },
+            keyframes: {
+              drift: {
+                "0%": { transform: "translateY(0px) translateX(0px)" },
+                "100%": { transform: "translateY(-14px) translateX(12px)" }
+              },
+              sweep: {
+                "0%": { transform: "translateX(-140%)" },
+                "100%": { transform: "translateX(140%)" }
+              },
+              gradientShift: {
+                "0%": { backgroundPosition: "0% 50%" },
+                "100%": { backgroundPosition: "200% 50%" }
+              },
+              floatCard: {
+                "0%, 100%": { transform: "translateY(0px)" },
+                "50%": { transform: "translateY(-8px)" }
+              },
+              fadeUp: {
+                "0%": { opacity: "0", transform: "translateY(22px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" }
+              }
+            },
+            animation: {
+              drift: "drift 10s ease-in-out infinite alternate",
+              sweep: "sweep 3.8s ease-in-out infinite",
+              gradientShift: "gradientShift 3.5s linear infinite",
+              floatCard: "floatCard 6s ease-in-out infinite",
+              fadeUp: "fadeUp 600ms ease forwards"
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+
+  <body class="bg-gradient-to-b from-[#edf2f8] to-[#f5f7fb] font-body text-brandInk antialiased">
+    <div id="scrollProgress" class="fixed left-0 top-0 z-50 h-[3px] w-0 bg-gradient-to-r from-brandBlue to-[#79a4ff] shadow-[0_0_12px_rgba(45,103,245,0.6)]"></div>
+
+    <div aria-hidden="true" class="pointer-events-none fixed -left-20 -top-28 -z-10 h-80 w-80 rounded-full bg-[#5f81ff]/45 blur-[90px] animate-drift"></div>
+    <div aria-hidden="true" class="pointer-events-none fixed -bottom-4 -right-28 -z-10 h-80 w-80 rounded-full bg-[#4de1ff]/35 blur-[90px] [animation-delay:1.3s] animate-drift"></div>
+
+    <header class="sticky top-0 z-40 border-b border-brandLine bg-white/80 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-3">
+          <div class="grid h-9 w-9 place-items-center rounded-[10px] bg-gradient-to-br from-[#2767ff] to-[#0e1e4f] font-heading text-sm font-bold text-white">VP</div>
+          <h1 class="font-heading text-[clamp(1rem,1.5vw,1.45rem)] font-extrabold">Vaid PR Blogs</h1>
+        </div>
+        <button class="rounded-xl border border-brandLine bg-[#f8fafe] px-4 py-2 text-sm font-bold text-[#182640] transition hover:-translate-y-0.5 hover:bg-white">
+          Login
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="relative grid min-h-[62vh] place-content-center gap-4 px-4 py-10 text-center text-[#dbe5ff] sm:px-6 lg:px-8 reveal"
+        style="background:
+          radial-gradient(circle at 20% -20%, rgba(117, 142, 255, 0.35), transparent 38%),
+          radial-gradient(circle at 90% 10%, rgba(45, 103, 245, 0.4), transparent 32%),
+          linear-gradient(180deg, #02091f 0%, #040d29 100%);">
+        <span class="relative mx-auto inline-flex overflow-hidden rounded-xl border border-[#789bff80] bg-[#132b656b] px-4 py-2 text-sm font-bold text-[#8fb2ff]">
+          Welcome to Professional Blogging
+          <span class="pointer-events-none absolute inset-0 bg-[linear-gradient(110deg,transparent_0%,rgba(255,255,255,0.28)_45%,transparent_80%)] animate-sweep"></span>
+        </span>
+
+        <h2 class="mx-auto max-w-4xl font-heading text-[clamp(1.8rem,4.6vw,3.8rem)] font-bold leading-tight tracking-[-0.03em]">
+          Discover Stories That
+          <span class="block bg-gradient-to-r from-[#91a7ff] via-[#4e79ff] to-[#91a7ff] bg-[length:200%_auto] bg-clip-text text-transparent animate-gradientShift">
+            Inspire & Inform
+          </span>
+        </h2>
+
+        <p class="mx-auto max-w-2xl text-[clamp(0.95rem,1.5vw,1.2rem)] leading-relaxed text-[#b2c0e6]">
+          Dive into a world of professional insights, industry trends, and thought-provoking content crafted by experts in their fields.
+        </p>
+
+        <a href="#features" class="mx-auto mt-1 inline-block rounded-xl bg-gradient-to-br from-brandBlue to-[#1f47b0] px-5 py-3 text-sm font-semibold text-white shadow-cta transition hover:-translate-y-0.5 hover:shadow-[0_18px_28px_rgba(45,103,245,0.42)]">
+          Explore Articles
+        </a>
+      </section>
+
+      <section id="stats" class="mx-auto mt-6 grid max-w-5xl gap-4 px-4 pb-3 sm:grid-cols-3 sm:px-6 lg:px-8">
+        <article class="animate-floatCard rounded-2xl border border-brandLine bg-white/75 p-5 text-center shadow-card reveal-up">
+          <h3 class="counter text-[clamp(1.5rem,3vw,2.25rem)] font-extrabold text-brandBlue" data-target="500" data-suffix="+">0</h3>
+          <p class="mt-1 text-sm font-semibold text-brandMuted">Published Articles</p>
+        </article>
+
+        <article class="animate-floatCard rounded-2xl border border-brandLine bg-white/75 p-5 text-center shadow-card [animation-delay:0.4s] reveal-up">
+          <h3 class="counter text-[clamp(1.5rem,3vw,2.25rem)] font-extrabold text-brandBlue" data-target="50" data-suffix="K+">0</h3>
+          <p class="mt-1 text-sm font-semibold text-brandMuted">Monthly Readers</p>
+        </article>
+
+        <article class="animate-floatCard rounded-2xl border border-brandLine bg-white/75 p-5 text-center shadow-card [animation-delay:0.8s] reveal-up">
+          <h3 class="counter text-[clamp(1.5rem,3vw,2.25rem)] font-extrabold text-brandBlue" data-target="25" data-suffix="+">0</h3>
+          <p class="mt-1 text-sm font-semibold text-brandMuted">Expert Writers</p>
+        </article>
+      </section>
+
+      <section id="features" class="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+        <header class="mx-auto max-w-3xl text-center reveal">
+          <h2 class="font-heading text-[clamp(1.55rem,3.2vw,2.5rem)] font-bold tracking-[-0.02em]">
+            Why Choose Vaid PR Blogs?
+          </h2>
+          <p class="mt-3 text-base leading-relaxed text-brandMuted">
+            We deliver high-quality content that drives professional growth and industry insight.
+          </p>
+        </header>
+
+        <div class="mt-7 grid gap-4 md:grid-cols-3">
+          <article class="feature-card reveal-up rounded-2xl border border-brandLine bg-white p-6 shadow-card transition will-change-transform">
+            <div class="text-3xl">📖</div>
+            <h3 class="mt-3 font-heading text-xl font-bold">Expert Content</h3>
+            <p class="mt-2 text-sm leading-relaxed text-brandMuted">
+              Articles written by professionals with proven track records and practical experience.
+            </p>
+          </article>
+
+          <article class="feature-card reveal-up rounded-2xl border border-brandLine bg-white p-6 shadow-card transition will-change-transform">
+            <div class="text-3xl">📈</div>
+            <h3 class="mt-3 font-heading text-xl font-bold">Latest Trends</h3>
+            <p class="mt-2 text-sm leading-relaxed text-brandMuted">
+              Stay ahead with timely insights on emerging trends and technologies shaping your industry.
+            </p>
+          </article>
+
+          <article class="feature-card reveal-up rounded-2xl border border-brandLine bg-white p-6 shadow-card transition will-change-transform">
+            <div class="text-3xl">👥</div>
+            <h3 class="mt-3 font-heading text-xl font-bold">Community Driven</h3>
+            <p class="mt-2 text-sm leading-relaxed text-brandMuted">
+              Join a community of thinkers sharing knowledge and building growth together.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-4 py-3 sm:px-6 lg:px-8 reveal">
+        <div class="rounded-3xl border border-brandLine bg-white p-6 shadow-card sm:p-8">
+          <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-[0.14em] text-brandBlue">New Addition</p>
+              <h2 class="mt-1 font-heading text-2xl font-bold">Subscribe to Weekly Insights</h2>
+              <p class="mt-2 max-w-xl text-sm text-brandMuted">Get one high-value idea every Friday on technology, marketing, and leadership.</p>
+            </div>
+            <form id="newsletterForm" class="w-full max-w-md">
+              <label for="emailInput" class="sr-only">Email</label>
+              <div class="flex flex-col gap-2 sm:flex-row">
+                <input id="emailInput" type="email" required placeholder="name@company.com" class="w-full rounded-xl border border-brandLine px-4 py-2.5 text-sm outline-none ring-brandBlue/20 transition focus:border-brandBlue focus:ring-4" />
+                <button type="submit" class="rounded-xl bg-brandBlue px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-[#2458d9]">Subscribe</button>
+              </div>
+              <p id="formMessage" class="mt-2 text-sm"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-8 border-t border-brandLine bg-white/80 reveal">
+      <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+        <div>
+          <h4 class="font-heading text-lg font-bold">Vaid PR Blogs</h4>
+          <p class="mt-2 text-sm text-brandMuted">Professional insights and industry expertise delivered to your inbox.</p>
+        </div>
+
+        <div>
+          <h5 class="font-heading text-sm font-bold uppercase tracking-[0.1em] text-brandMuted">Quick Links</h5>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li>Home</li>
+            <li>About</li>
+            <li>Categories</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="font-heading text-sm font-bold uppercase tracking-[0.1em] text-brandMuted">Categories</h5>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li>Technology</li>
+            <li>Business</li>
+            <li>Marketing</li>
+            <li>Leadership</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="font-heading text-sm font-bold uppercase tracking-[0.1em] text-brandMuted">Connect</h5>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li>Twitter</li>
+            <li>LinkedIn</li>
+            <li>Newsletter</li>
+            <li>RSS Feed</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../components/scripts/reveal.js"></script>
+    <script src="../components/scripts/counters.js"></script>
+    <script src="../components/scripts/scroll-progress.js"></script>
+    <script src="../components/scripts/feature-cards.js"></script>
+    <script src="../components/scripts/newsletter.js"></script>
+  </body>
+</html>
